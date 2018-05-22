@@ -1,14 +1,30 @@
 .content {
   margin-top: 100px;
+  color: white;
+}
+
+body {
+  background-color: #001a4d;
+}
+.navbar {
+  background-color: white;
 }
 
 .navbar-brand {
   font-family: 'Tangerine', cursive;
 }
 
+.navbar-inverse .navbar-brand:hover {
+  color: black;
+}
+
 .navbar ul li {
   font-family: 'Tangerine', cursive;
   font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: black;
 }
 
 .content img {
@@ -18,7 +34,7 @@
 }
 
 h1 {
-  border-bottom: 5px solid #002266;
+  border-bottom: 5px solid #001a4d;
 }
 
 footer div {
