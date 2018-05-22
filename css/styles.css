@@ -1,16 +1,39 @@
-* {
-  width: 100%;
-  margin: 0;
-}
-
-.container {
-  width: 100%;
-}
-
-.nav-item {
-
-}
-
 .content {
+  margin-top: 100px;
+}
 
+.navbar-brand {
+  font-family: 'Tangerine', cursive;
+}
+
+.navbar ul li {
+  font-family: 'Tangerine', cursive;
+  font-size: 20px;
+}
+
+.content img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  border-bottom: 5px solid #002266;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+}
+
+@media screen and (max-width: 770px) {
+  .content {
+    margin-top: 360px;
+  }
+
+  .content img {
+    width: 100%;
+  }
 }
